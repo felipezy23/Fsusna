@@ -1,4 +1,4 @@
-```css id="7u2nxa"
+```css id="q7l3we"
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 :root {
@@ -22,9 +22,9 @@ body {
     justify-content: center;
     align-items: center;
 
-    font-family: 'Chakra Petch', sans-serif;
-
     background: linear-gradient(135deg, #eef5ff, #dcecff);
+
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .container {
@@ -35,10 +35,10 @@ body {
 }
 
 .card {
-    background-color: var(--card);
+    background: white;
 
     width: 90%;
-    max-width: 700px;
+    max-width: 750px;
 
     padding: 50px;
 
@@ -54,17 +54,17 @@ body {
 
     font-size: 42px;
 
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
-.texto {
+.conta {
     color: var(--texto);
 
-    font-size: 22px;
-
-    line-height: 1.6;
+    font-size: 26px;
 
     margin-bottom: 35px;
+
+    line-height: 1.5;
 }
 
 button {
@@ -91,5 +91,15 @@ button:hover {
     background-color: var(--azul-hover);
 
     transform: scale(1.05);
+}
+
+.mensagem {
+    margin-top: 35px;
+
+    font-size: 24px;
+
+    color: var(--texto);
+
+    line-height: 1.7;
 }
 ```
