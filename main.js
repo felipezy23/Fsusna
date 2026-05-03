@@ -1,10 +1,8 @@
-main.js
-
-```javascript id="m1a2i3"
+```javascript id="h2m8qk"
 const botao = document.getElementById("botao");
 const mensagem = document.getElementById("mensagem");
 
-botao.addEventListener("click", () => {
+botao.addEventListener("click", function () {
 
     mensagem.textContent =
     "Você é fenomenal, literalmente a coisa mais especial que aconteceu na minha vida. Sem você eu não vivo meu amor, quero você pra sempre ❤️";
