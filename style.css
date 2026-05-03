@@ -1,13 +1,11 @@
-style.css
-
-```css id="s7t8y9"
+```css id="7u2nxa"
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 :root {
     --fundo: #eef5ff;
     --card: #ffffff;
     --azul: #5b9dff;
-    --azul-claro: #dcecff;
+    --azul-hover: #468cff;
     --texto: #1e2a3a;
 }
 
@@ -18,12 +16,15 @@ style.css
 }
 
 body {
-    font-family: 'Chakra Petch', sans-serif;
-    background: linear-gradient(135deg, #eef5ff, #dcecff);
     height: 100vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-family: 'Chakra Petch', sans-serif;
+
+    background: linear-gradient(135deg, #eef5ff, #dcecff);
 }
 
 .container {
@@ -35,42 +36,60 @@ body {
 
 .card {
     background-color: var(--card);
-    padding: 50px;
-    border-radius: 30px;
+
     width: 90%;
     max-width: 700px;
+
+    padding: 50px;
+
+    border-radius: 30px;
+
     text-align: center;
+
     box-shadow: 0 10px 30px rgba(91, 157, 255, 0.2);
-    transition: 0.3s;
 }
 
 .titulo {
     color: var(--azul);
+
     font-size: 42px;
+
     margin-bottom: 25px;
 }
 
 .texto {
     color: var(--texto);
+
     font-size: 22px;
+
     line-height: 1.6;
+
     margin-bottom: 35px;
 }
 
 button {
     background-color: var(--azul);
+
     color: white;
+
     border: none;
+
     padding: 16px 35px;
+
     border-radius: 15px;
+
     font-size: 20px;
+
     cursor: pointer;
+
     transition: 0.3s;
+
     font-family: 'Chakra Petch', sans-serif;
 }
 
 button:hover {
-    background-color: #468cff;
+    background-color: var(--azul-hover);
+
     transform: scale(1.05);
 }
 ```
