@@ -4,113 +4,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus objetivos do ano</title>
+    <title>Ana ❤️</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <section class="conteudo-principal">
-        <h2 class="titulo-principal">Meus objetivos do ano<span>_</span></h2>
-        <div class="conteudo">
-            <div class="botoes">
-                <button class="botao ativo">Cursos na Alura</button>
-                <button class="botao">Criar projetos em Javascript</button>
-                <button class="botao">Criar um portfolio</button>
-                <button class="botao">Atualizar meu currículo</button>
-            </div>
-            <div class="abas-textos">
-                <div class="aba-conteudo ativo">
-                    <h3 class="aba-conteudo-titulo-principal">Estudar 4 cursos na Alura</h3>
-                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
-                    <div class="contador">
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="dias0"></p>
-                            <p class="contador-digito-texto">dias</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="horas0"></p>
-                            <p class="contador-digito-texto">horas</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="min0"></p>
-                            <p class="contador-digito-texto">min</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="seg0"></p>
-                            <p class="contador-digito-texto">seg</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">Criar 5 projetos em Javascript</h3>
-                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
-                    <div class="contador">
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="dias1"></p>
-                            <p class="contador-digito-texto">dias</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="horas1"></p>
-                            <p class="contador-digito-texto">horas</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="min1"></p>
-                            <p class="contador-digito-texto">min</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="seg1"></p>
-                            <p class="contador-digito-texto">seg</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">Criar um portfolio com os meus 3 melhores projetos</h3>
-                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
-                    <div class="contador">
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="dias2"></p>
-                            <p class="contador-digito-texto">dias</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="horas2"></p>
-                            <p class="contador-digito-texto">horas</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="min2"></p>
-                            <p class="contador-digito-texto">min</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="seg2"></p>
-                            <p class="contador-digito-texto">seg</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">Atualizar meu curriculo com os certificados da Alura</h3>
-                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
-                    <div class="contador">
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="dias3"></p>
-                            <p class="contador-digito-texto">dias</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="horas3"></p>
-                            <p class="contador-digito-texto">horas</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="min3"></p>
-                            <p class="contador-digito-texto">min</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="seg3"></p>
-                            <p class="contador-digito-texto">seg</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+    <main class="container">
+        <div class="card">
+
+            <h1 class="titulo">Eu te amo meu amor</h1>
+
+            <p class="texto" id="mensagem">
+                Você faz meu coração acelerar toda vez que eu olho pra você.
+            </p>
+
+            <button id="botao">
+                Eu te amo
+            </button>
+
         </div>
-    </section>
+    </main>
+
     <script src="main.js"></script>
 </body>
 
 </html>
+
+style.css
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+
+:root {
+    --fundo: #eef5ff;
+    --card: #ffffff;
+    --azul: #5b9dff;
+    --azul-claro: #dcecff;
+    --texto: #1e2a3a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    background: linear-gradient(135deg, #eef5ff, #dcecff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--card);
+    padding: 50px;
+    border-radius: 30px;
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(91, 157, 255, 0.2);
+    transition: 0.3s;
+}
+
+.titulo {
+    color: var(--azul);
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+.texto {
+    color: var(--texto);
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+button {
+    background-color: var(--azul);
+    color: white;
+    border: none;
+    padding: 16px 35px;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+button:hover {
+    background-color: #468cff;
+    transform: scale(1.05);
