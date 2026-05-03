@@ -1,4 +1,4 @@
-```javascript id="h2m8qk"
+```javascript id="f4t9zk"
 const botao = document.getElementById("botao");
 const mensagem = document.getElementById("mensagem");
 
